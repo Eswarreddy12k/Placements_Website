@@ -1,7 +1,12 @@
 <%- include('partials/header.ejs') %>
-    <div>
+    <div class="homebg">
+        <br>
         <div class="upc-events" id="upcomingevents1">
-        <h1>Upcoming Placements</h1>
+        <h1> Upcoming Placements</h1>
+        <div style="background-color: #3366cc;width: 30vw;height: 1vh;">
+
+        </div>
+        <br>
         <hr>
             <% for(let i = 0; i < posts.length; i++) { 
                 var now=new Date();
@@ -24,8 +29,11 @@
         </div>   
         
         <div class="upc-events" id="yourapplications1">
-        <h1>Your Applications</h1>
-        
+        <h1 > Your Applications</h1>
+        <div style="background-color: #3366cc;width: 25vw;height: 1vh;">
+
+        </div>
+        <br>
         <div>
             <% for(let i = 0; i < events.length; i++) { %>
                 <% for(let j = 0; j < posts.length; j++) { if(posts[j]._id==events[i].event_id){ %>
@@ -42,6 +50,10 @@
         </div></div>
         <div class="upc-events" id="companyeligibility1">
         <h1>Company eligibility</h1>
+        <div style="background-color: #3366cc;width: 27vw;height: 1vh;">
+
+        </div>
+        <br>
         <div>
             <div class="event-box">
             <h3>Here is the On/Off Campus Placement Eligibility Criteria for BE-Btech Fresher of top MNC recruiter Like TCS, Infosys, Cognizant, Wipro, Siemens, TechMahindra, Accenture, HCL, Dell, Hp, Lenovo , NIIT Tech, Mindtree, etc. and many more companies we will updates in near future.</h3>
@@ -51,6 +63,10 @@
     </div>
         <div class="upc-events" id="paststats1">
         <h1>Past Statistics</h1>
+        <div style="background-color: #3366cc;width: 20vw;height: 1vh;">
+
+        </div>
+        <br>
         <div class="event-boxn" style="transform: scale(0.9);
             padding: 20px;
             padding-bottom: 50px;

@@ -1,6 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #f8fafb; }
+  background-color: #f8fafb;
+  
+ }
 
 p {
   color: #b3b3b3;
@@ -273,7 +275,7 @@ h2 {
   float: right;
 }
 .event-box h1{
-  color: brown;
+  color: #3366cc;
 }
 .event-box h3{
   color: grey;
@@ -303,6 +305,10 @@ body{
   background-color: whitesmoke;
 }
 
+.homebg{
+  background-image: url('https://www.gsfcuni.edu.in/upload/avatar/website_banner.jpg');
+  background-size: cover;
+}
 
 
 .site-footer
